@@ -3,8 +3,8 @@ const CANVAS_WIDTH = 600;
 const CANVAS_HEIGHT = 600;
 
 // Randomness Modifiers
-const LINE_WIDTH = 2;
-const INCREMENTS = 20;
+const LINE_WIDTH = 5;
+const INCREMENTS = 10;
 const STEP_TIMEOUT = 0;
 
 var context = (function initializeCanvas() {
@@ -63,7 +63,6 @@ const drawSpan = function(ctx, canvasWidth, canvasHeight, xProgress, yProgress, 
 drawPicture(context, CANVAS_WIDTH, CANVAS_HEIGHT, 0, 0, CANVAS_HEIGHT/INCREMENTS);
 
 //SAVE ARTWORK AS A JPEG IMAGE
-
 // const saveCanvasAsJPG = function() {
 //   var canvas = document.querySelector('#canvas');
 //   var link = document.createElement('a');
